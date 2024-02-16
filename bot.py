@@ -23,7 +23,7 @@ def musicrmv(x,y):
   user_id = y
   filename = os.path.basename(file_path)
   nom,ex = os.path.splitext(filename)
-  mp4file = f"{nom}.mp4"
+  mp4file = f"msrmvd{nom}.mp4"
   mp3file = f"{nom}.mp3"
   finalsound = f"{nom}.wav"
   cmd(f'mkdir workdir')
